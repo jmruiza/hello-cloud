@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    name = os.environ.get('NAME', 'Google Cloud')
+    name = os.environ.get('NAME', 'Tino')
     return 'Hello {} - Powered by Emerald Digital!'.format(name)
 
 
